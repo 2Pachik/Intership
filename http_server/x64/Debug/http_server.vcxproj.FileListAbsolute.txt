@@ -1,0 +1,2 @@
+C:\Files\Axxon\http_server\x64\Debug\http_server.exe
+C:\Files\Axxon\Main\http_server\x64\Debug\http_server.exe

@@ -1,0 +1,50 @@
+﻿  http_server.cpp
+C:\Files\Axxon\Main\http_server\usage_headers\base64.h(16,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "http_server.cpp")
+  
+C:\Files\Axxon\Main\http_server\usage_headers\base64.h(29,40): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+  (компиляция исходного файла "http_server.cpp")
+  
+C:\Files\Axxon\Main\http_server\usage_headers\base64.h(47,39): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+  (компиляция исходного файла "http_server.cpp")
+  
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+C:\Files\Libs\boost_1_83_0\boost\bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Files\Axxon\Main\http_server\http_server.cpp(48,18): warning C4244: инициализация: преобразование "std::streamoff" в "int", возможна потеря данных
+C:\Files\Axxon\Main\http_server\http_server.cpp(120,71): warning C4267: аргумент: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244: аргумент: преобразование "wchar_t" в "const _Elem", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:             _Elem=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         ]
+  (компиляция исходного файла "http_server.cpp")
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Files\Axxon\Main\http_server\http_server.cpp(78,25):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)"
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  		C:\Files\Axxon\Main\http_server\http_server.cpp(78,25):
+  		см. первую ссылку на "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string" в "LocalPath"
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2590,17):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)"
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+  
+C:\Files\Axxon\Main\http_server\http_server.cpp(197): warning C4715: checkAuth: значение возвращается не при всех путях выполнения
+C:\Files\Axxon\Main\http_server\http_server.cpp(219): warning C4715: findValue: значение возвращается не при всех путях выполнения
+C:\Files\Axxon\Main\http_server\http_server.cpp(314): warning C4717: run: рекурсия на всех путях выполнения, функция вызовет переполнение стека
+  http_server.vcxproj -> C:\Files\Axxon\Main\http_server\x64\Debug\http_server.exe
